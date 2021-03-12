@@ -149,12 +149,12 @@ const Home = () => {
               {state.data?.TermCurrencies && ( // safely check whether json has been populated successfully
                 <div className="two-column">
                   <div className="field left-column">
-                    <label htmlFor="fromCurrency">
-                      From Currency
+                    <label htmlFor="from-currency">
+                      From Currency{" "}
                       <span className="asterisk-symbol">&#42;</span>
                     </label>
                     <select
-                      id="fromCurrency"
+                      id="from-currency"
                       name="fromCurrency"
                       onChange={handleChange}
                     >
@@ -172,12 +172,11 @@ const Home = () => {
                     </select>
                   </div>
                   <div className="field">
-                    <label htmlFor="toCurrency">
-                      To Currency
-                      <span className="asterisk-symbol">&#42;</span>
+                    <label htmlFor="to-currency">
+                      To Currency <span className="asterisk-symbol">&#42;</span>
                     </label>
                     <select
-                      id="toCurrency"
+                      id="to-currency"
                       name="toCurrency"
                       onChange={handleChange}
                     >
