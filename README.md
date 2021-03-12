@@ -7,7 +7,7 @@ React app to get quote price from OFX API
 ## 1. Clone the repository or download the zip
 
 ```
-git clone https://github.com/Jonnylie/Pathfinding-Visualizer.git
+git clone https://github.com/Jonnylie/Engineering-Coding-Test.git
 ```
 
 ## 2. Install the dependencies
